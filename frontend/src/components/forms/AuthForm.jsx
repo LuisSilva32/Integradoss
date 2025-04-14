@@ -33,7 +33,6 @@ export default function AuthForm ({ onSubmit, loading }) {
               <FormLabel>Usuario</FormLabel>
               <FormControl>
                 <div className='relative'>
-                  <FaUser className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-600' />
                   <input.Input
                     icon={FaUser}
                     placeholder='Ingresar usuario'
@@ -54,7 +53,6 @@ export default function AuthForm ({ onSubmit, loading }) {
               <FormLabel>Contraseña</FormLabel>
               <FormControl>
                 <div className='relative'>
-                  <FaLock className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-600' />
                   <input.Input
                     icon={FaLock}
                     type='password'

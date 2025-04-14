@@ -1,4 +1,3 @@
-import Logo from '@/assets/logo.png'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { motion } from 'motion/react'
@@ -27,7 +26,7 @@ export default function Navbar ({ className }) {
     >
       <div className='container mx-auto flex items-center justify-between'>
         <NavLink to='/'>
-          <img src={Logo} alt='Logo' className='h-8 w-auto' />
+          <img src='https://res.cloudinary.com/integradoss/image/upload/v1744656520/logo_aprkhx.png' alt='Logo' className='h-8 w-auto' />
         </NavLink>
 
         <ul className='hidden md:flex items-center gap-6'>

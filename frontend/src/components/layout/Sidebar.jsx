@@ -1,4 +1,3 @@
-import Logo from '@/assets/logo.png'
 import {
   Sidebar,
   SidebarContent,
@@ -54,7 +53,7 @@ export default function AppSidebar ({ onLogout }) {
     <Sidebar>
       <SidebarHeader className='p-4 bg-green-600 text-white border-b border-white/70'>
         <div className='flex items-center justify-center gap-2'>
-          <img src={Logo} alt='Logo' className='h-6 w-6' />
+          <img src='https://res.cloudinary.com/integradoss/image/upload/v1744656520/logo_aprkhx.png' alt='Logo' className='h-6 w-6' />
           <h2 className='text-2xl font-light tracking-[0.1em]'>INTEGRADOSS</h2>
         </div>
       </SidebarHeader>

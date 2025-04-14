@@ -20,7 +20,7 @@ export default function HeroSection () {
       <motion.div
         className='absolute inset-0 bg-cover bg-center z-0 blur-xs '
         style={{
-          backgroundImage: "url('/src/assets/hero.jpg')",
+          backgroundImage: "url('https://res.cloudinary.com/integradoss/image/upload/v1744656520/hero_ytxkqa.jpg')",
           backgroundPosition: '50% 20%',
           scale,
           opacity
