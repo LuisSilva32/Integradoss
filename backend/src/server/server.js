@@ -29,5 +29,5 @@ app.use('/api/auth', authRoutes)
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => {
-  console.log(`El servidor esta en ejecucion en el puerto http://localhost:${PORT}`)
+  console.log(`🚀 Servidor ejecutándose en el puerto ${PORT}`)
 })
