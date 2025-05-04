@@ -62,5 +62,3 @@ A continuacion, algunas vista del proyecto:
 
 ## 🌐Pagina oficial
 
-### Enlace:
-URL: https://integradoss.com/
