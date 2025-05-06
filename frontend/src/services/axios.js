@@ -4,7 +4,7 @@ import axios from 'axios'
 
 // Crear una instancia de axios
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL
+  baseURL: 'https://api.integradoss.com/api'
 })
 
 // Interceptor para manejar errores

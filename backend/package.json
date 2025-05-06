@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon src/server/server.js",
+    "start": "node src/server/server.js",
     "dev": "nodemon src/server.js"
   },
   "keywords": [],
