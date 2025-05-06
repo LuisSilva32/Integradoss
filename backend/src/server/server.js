@@ -17,7 +17,10 @@ connectDB()
 configureCloudinary()
 
 // midlewares
-app.use(cors())
+app.use(cors({
+  origin: 'https://integradoss.com', // Acepta solicitudes solo desde tu frontend
+  credentials: true // Necesario si usas cookies o headers como Authorization
+}))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
